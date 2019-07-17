@@ -1,0 +1,30 @@
+{
+  "name": "tearboty",
+  "displayName": "TearBoty",
+  "version": "1.0.0",
+  "description": "TearBoty is a twitter bot for searching locations using emojis",
+  "author": "Giovani de Oliveira <giovanioliveira@outlook.com.br>",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxgicoxx/tearboty.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xxgicoxx/tearboty/issues"
+  },
+  "homepage": "https://github.com/xxgicoxx/tearboty#readme",
+  "keywords": [
+    "twitter",
+    "bot",
+    "emoji"
+  ],
+  "dependencies": {
+    "google-places-web": "^0.3.0",
+    "node-emoji": "^1.10.0",
+    "twit": "^2.2.11"
+  }
+}
