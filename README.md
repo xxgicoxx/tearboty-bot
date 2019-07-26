@@ -1,6 +1,6 @@
-# TearBoty - A Twitter bot for searching locations using emojis.
+# TearBoty
 
-TearBoty is a twitter bot for searching locations using emojis.
+TearBoty is an twitter bot for searching locations using emojis.
 
 ![Bot](http://i.imgur.com/DFkyqLU.png)
 
