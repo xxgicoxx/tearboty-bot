@@ -1,1 +1,1 @@
-require('./app/worker/twitter/index');
+require('./app/controllers/BotController');

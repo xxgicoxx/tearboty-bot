@@ -1,5 +1,5 @@
 # TearBoty
-TearBoty is an Twitter bot for searching locations using emojis.
+Twitter bot for searching locations using emojis.
 
 ![Bot](http://i.imgur.com/DFkyqLU.png)
 
@@ -7,7 +7,7 @@ TearBoty is an Twitter bot for searching locations using emojis.
 * [Node.js](https://nodejs.org/en/) - Node.js
 
 ### Running
-The bot can be run locally and also deployed to your own server. You will need to register your own Twitter app and set the credentials in 'config/auth.js'.
+The bot can be run locally and also deployed to your own server.
 
 ### Twitter
 ````
@@ -18,25 +18,19 @@ Create an application on https://developer.twitter.com/en/apps
 Access application details and click on 'Keys and tokens' button
 
 # Configure
-Get your credentials and set in 'config/auth.js'
+Get your credentials and set in 'configs/twitter.js'
 ````
 
-### Google Places
+### Foursquare Places
 ````
-# Google console
-Go to the Google Cloud Platform Console on https://cloud.google.com/console/google/maps-apis/overview
+# Foursqare console
+Go to Foursquare on https://foursquare.com/developers/apps
 
-# Select a project
-From the Project drop-down menu, select or create the project for which you want to add an API key
-
-# Select a service
-From the navigation menu, select APIs & Services > Library and search for 'Places'
-
-# Enable API Google Places
-Access 'API Google Places' and a new page will open up, click on the 'Enable' button
+# Select a app
+Select app or click on 'Create A New App'
 
 # Get credentials
-On de API Google Places details, click on credentials, copy API key and set in 'config/auth.js'
+On app details, copy client id, client secret and set in 'configs/foursquare.js'
 ````
 
 ### Run
