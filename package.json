@@ -1,7 +1,7 @@
 {
   "name": "tearboty",
   "displayName": "TearBoty",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Twitter bot for searching locations using emojis",
   "author": "Giovani de Oliveira <giovanioliveira@outlook.com.br>",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "emoji"
   ],
   "dependencies": {
-    "fourplaces": "^1.0.0",
+    "fourplaces": "^1.0.1",
     "node-emoji": "^1.10.0",
     "twit": "^2.2.11"
   },
