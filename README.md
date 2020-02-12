@@ -38,7 +38,7 @@ On app details, copy client id, client secret and set in 'configs/foursquare.js'
 # Install dependencies
 npm install
 
-# Run
+# Start
 npm start
 ````
 
