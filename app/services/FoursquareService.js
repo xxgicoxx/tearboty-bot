@@ -13,8 +13,9 @@ class FoursqareService {
       const args = $.text.slice(0).trim().split(' ');
       const place = args[args.length - 1];
       const location = $.text.replace('@tearboty', '').replace(place, '').trim();
+      const userLocation = $.user.location;
       const emojiKey = emoji.find(place);
-      const places = await foursquare.venues().explore({ query: `${emojiKey ? emojiKey.key : place}`, near: `${location || tweet.user.location}` });
+      const places = await foursquare.venues().explore({ query: `${emojiKey ? emojiKey.key : place}`, near: `${location || userLocation}` });
 
       let text = '';
 

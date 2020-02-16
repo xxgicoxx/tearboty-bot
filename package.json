@@ -24,7 +24,7 @@
     "emoji"
   ],
   "dependencies": {
-    "fourplaces": "^1.0.1",
+    "fourplaces": "^1.0.2",
     "node-emoji": "^1.10.0",
     "twit": "^2.2.11"
   },
