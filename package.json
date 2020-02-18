@@ -1,7 +1,7 @@
 {
   "name": "tearboty",
   "displayName": "TearBoty",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Twitter bot for searching locations using emojis",
   "author": "Giovani de Oliveira <giovanioliveira@outlook.com.br>",
   "license": "MIT",

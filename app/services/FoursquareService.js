@@ -25,7 +25,7 @@ class FoursqareService {
 
       twitter.post('direct_messages/events/new', new Direct({ user: $.user.id_str, text }).toJson());
     } catch (ex) {
-      console.log(ex);
+      console.error(ex);
 
       twitter.post('direct_messages/events/new', new Direct({ user: $.user.id_str, text: 'Error, try again later' }).toJson());
     }
