@@ -1,15 +1,25 @@
-# TearBoty
+# TearBoty Bot
 Twitter bot for searching locations using emojis.
 
-![Bot](http://i.imgur.com/DFkyqLU.png)
+<p align="center">
+  <img src="assets/imgs/tearboty.png">
+</p>
 
-### Prerequisites
-* [Node.js](https://nodejs.org/en/) - Node.js
+# Features
+* @tearboty 🍞 - Search nearby bakeries
+* @tearboty `Location` 🍞 - Search bakeries on Location
 
-### Running
-The bot can be run locally and also deployed to your own server.
+# Prerequisites
+* [Node.js](https://nodejs.org/en/)
 
-### Twitter
+# Running
+### 1. Configure
+````
+# Bot
+Create and configure .env file like .env.example.
+````
+
+### 2. Twitter
 ````
 # Create an Twitter application
 Create an application on https://developer.twitter.com/en/apps
@@ -18,10 +28,10 @@ Create an application on https://developer.twitter.com/en/apps
 Access application details and click on 'Keys and tokens' button
 
 # Configure
-Get your credentials and set in 'configs/twitter.js'
+Get your credentials and set in .env
 ````
 
-### Foursquare Places
+### 3. Foursquare Places
 ````
 # Foursqare console
 Go to Foursquare on https://foursquare.com/developers/apps
@@ -30,10 +40,10 @@ Go to Foursquare on https://foursquare.com/developers/apps
 Select app or click on 'Create A New App'
 
 # Get credentials
-On app details, copy client id, client secret and set in 'configs/foursquare.js'
+On app details, copy client id, client secret and set in .env
 ````
 
-### Run
+### 4. Run
 ````
 # Install dependencies
 npm install
@@ -42,11 +52,11 @@ npm install
 npm start
 ````
 
-### Built With
+# Built With
 * [Node.js](https://nodejs.org/en/)
 
-### Authors
-* **Giovani de Oliveira** - [xxgicoxx](https://github.com/xxgicoxx)
+# Authors
+* [xxgicoxx](https://github.com/xxgicoxx/)
 
-### Acknowledgments
-* [FlatIcon](https://www.flaticon.com/) - Icon
+# Acknowledgments
+* [FlatIcon](https://www.flaticon.com/)

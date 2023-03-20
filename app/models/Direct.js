@@ -1,3 +1,5 @@
+const { constants } = require('../utils');
+
 class Direct {
   constructor({ user, text }) {
     this.user = user;
@@ -7,13 +9,13 @@ class Direct {
   toJson() {
     return {
       event: {
-        type: 'message_create',
+        type: constants.TYPE,
         message_create: {
           target: {
             recipient_id: this.user,
           },
           message_data: {
-            text: this.text || 'Sorry, i did not find anything ☹️',
+            text: this.text || constants.MESSAGE_NOT_FOUND,
           },
         },
       },

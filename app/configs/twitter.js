@@ -1,8 +1,10 @@
 const twitter = {
-  consumer_key: process.env.TEARBOTY_TWITTER_CONSUMER_KEY || '',
-  consumer_secret: process.env.TEARBOTY_TWITTER_CONSUMER_SECRET || '',
-  access_token: process.env.TEARBOTY_TWITTER_ACCESS_TOKEN || '',
-  access_token_secret: process.env.TEARBOTY_TWITTER_ACCESS_TOKEN_SECRET || '',
+  track: process.env.TWITTER_TRACK || '@tearboty',
+  consumer_key: process.env.TWITTER_API_KEY || '',
+  consumer_secret: process.env.TWITTER_API_KEY_SECRET || '',
+  access_token: process.env.TWITTER_ACCESS_TOKEN || '',
+  access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET || '',
+  username: process.env.TWITTER_USERNAME || '',
 };
 
 module.exports = twitter;
