@@ -22,25 +22,25 @@ Create and configure .env file like .env.example.
 ### 2. Twitter
 ````
 # Create an Twitter application
-Create an application on https://developer.twitter.com/en/apps
+Create an application on https://developer.twitter.com/en/apps.
 
 # Get keys and tokens
-Access application details and click on 'Keys and tokens' button
+Access application details and click on 'Keys and tokens' button.
 
 # Configure
-Get your credentials and set in .env
+Get your credentials and set in .env.
 ````
 
 ### 3. Foursquare Places
 ````
 # Foursqare console
-Go to Foursquare on https://foursquare.com/developers/apps
+Go to Foursquare on https://foursquare.com/developers/apps.
 
 # Select a app
-Select app or click on 'Create A New App'
+Select app or click on 'Create A New App'.
 
 # Get credentials
-On app details, copy client id, client secret and set in .env
+On app details, copy client id, client secret and set in .env.
 ````
 
 ### 4. Run
